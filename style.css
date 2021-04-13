@@ -1,0 +1,114 @@
+/* ESTILO GENERAL */
+a{
+    color: inherit;
+}
+
+.container > .row{
+    margin-bottom: 3rem;
+}
+
+/* NAVEGADOR */
+.navbar-main .active{
+    text-decoration: underline wavy var(--color rgb(58, 57, 4));
+    text-underline-offset: 9px;
+}
+
+/*BUSCADOR*/
+#busqueda{
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    }
+
+/*LOGIN*/
+#login{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 1%;
+
+}
+
+.log{
+    text-decoration: underline wavy var(--color rgb(58, 57, 4));
+    text-underline-offset: 9px;
+}
+
+/*CENTRAR TITULO*/
+.header-main{
+    min-height: 100vh;
+}
+
+/*REDES SOCIALES*/
+.icons-social-networks > a{
+    --size: 40px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icons-social-networks{
+    display: block;
+    position: absolute;
+    top: 500px;
+    left: 15%;
+    margin-left: -1px;
+    width: 50%; 
+}
+
+/*CARRUSEL*/
+#principal{
+    display: block;
+    position: absolute;
+    top: 150px;
+    right: 1%;
+    margin-left: -1px;
+    
+    width: 50%;
+}
+
+.carousel-item img{
+    filter: grayscale(75%);
+}
+
+.carousel-caption{
+    position: absolute;
+    left: 0;
+    width: 50%;
+    top: 20%;
+    margin-left: 15%;
+    
+}
+
+.carousel-caption h4{
+    font-size: 5em;
+    text-align: left;
+    text-shadow: 2px 2px 4px black;
+}
+
+.carousel-caption button{
+    position: absolute;
+    left: 0;
+    text-shadow: 2px 2px 4px black;
+}
+
+/*MECANICOS*/
+.icono-mecanico{
+    --box-size: 250px;
+    width: var(--box-size);
+    height: var(--box-size);
+    padding: 10px;
+}
+
+/*SERVICIOS*/
+.icono-sercicios{
+    --box-size:70px;
+    width: var(--box-size);
+    height: var(--box-size);
+    padding: 10px;
+}
